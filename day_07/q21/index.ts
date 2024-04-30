@@ -1,0 +1,14 @@
+let student:{
+    name: string,
+    cityOfBirth: string,
+    cityOfResidence:string,
+    DataOfBirth: string | number,
+    age: number,
+} = {
+    name: "Hammad",
+    cityOfBirth: "Karachi",
+    cityOfResidence: "Karachi",
+    DataOfBirth: "13/07/2004",
+    age: 19,
+}
+console.log(student.DataOfBirth);
