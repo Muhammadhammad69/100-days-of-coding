@@ -3,5 +3,6 @@ function greeting(name = "anonymous") {
     console.log(`Hello ${name}`); // print the name.
 }
 ;
-greeting();
+greeting(); // output is Hello anonymous.
+greeting("John"); // output is Hello John.
 export {};
