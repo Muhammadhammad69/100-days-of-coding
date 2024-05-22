@@ -1,5 +1,3 @@
-"use strict";
-Object.defineProperty(exports, "__esModule", { value: true });
 let countries = [
     "Japan",
     "Iceland",
@@ -10,3 +8,4 @@ let countries = [
 countries.forEach((country) => {
     console.log(`I like to visit these ${country}`);
 });
+export {};

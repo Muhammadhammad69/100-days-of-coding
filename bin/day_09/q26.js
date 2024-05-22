@@ -1,5 +1,3 @@
-"use strict";
-Object.defineProperty(exports, "__esModule", { value: true });
 let alienColor = "green";
 //program that runs if block.
 if (alienColor.toLowerCase() === "green") {
@@ -16,3 +14,4 @@ if (alienColor.toLowerCase() === "green") {
 else {
     console.log("the player just earned 10 points.");
 }
+export {};

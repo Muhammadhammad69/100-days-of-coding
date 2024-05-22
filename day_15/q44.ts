@@ -3,3 +3,5 @@ function makeSandwich(...item:string[]){
 };
 
 makeSandwich("chicken","cheese", "no mayo");
+makeSandwich("add some extra cheese", "chicken");
+makeSandwich("chicken", "cheese", "Egg", "add mayo");

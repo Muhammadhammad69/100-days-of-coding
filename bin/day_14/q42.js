@@ -1,5 +1,3 @@
-"use strict";
-Object.defineProperty(exports, "__esModule", { value: true });
 let magician = ["Bob", "Allie", "Grace"];
 function makeGreat(magicianNames) {
     magicianNames.forEach((names) => {
@@ -14,3 +12,4 @@ function showMagician(magicianNames) {
 }
 makeGreat(magician);
 showMagician(magician);
+export {};

@@ -1,5 +1,3 @@
-"use strict";
-Object.defineProperty(exports, "__esModule", { value: true });
 let aleinColor = "Green";
 // green color program.
 if (aleinColor.toLowerCase() === "green") {
@@ -33,3 +31,4 @@ else if (aleinColor.toLowerCase() === "yellow") {
 else if (aleinColor.toLowerCase() === "red") {
     console.log("The Player earned 15 points.");
 }
+export {};

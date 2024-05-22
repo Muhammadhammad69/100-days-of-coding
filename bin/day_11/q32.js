@@ -1,6 +1,4 @@
-"use strict";
 // current users of the website.
-Object.defineProperty(exports, "__esModule", { value: true });
 let currentUsers = [
     "Eric",
     "bob",
@@ -40,3 +38,4 @@ for (let i = 0; i < newUsers.length; i++) {
         console.log(`${newUsers[i]} is available.`);
     }
 }
+export {};

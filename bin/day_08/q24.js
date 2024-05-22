@@ -1,5 +1,3 @@
-"use strict";
-Object.defineProperty(exports, "__esModule", { value: true });
 //Equality of Strings.
 console.log("hammad" == "hammad"); //true
 // console.log("hammad" == "hammaD"); //false 
@@ -17,3 +15,4 @@ console.log("is japan in county?");
 console.log(country.includes("japan")); //true.
 console.log("is london in county?");
 console.log(country.includes("london")); //false
+export {};

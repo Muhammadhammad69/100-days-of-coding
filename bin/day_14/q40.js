@@ -1,5 +1,3 @@
-"use strict";
-Object.defineProperty(exports, "__esModule", { value: true });
 function makeAlbums(artistName, albumTitle, tracks) {
     let albums = { artistName, albumTitle };
     if (tracks) {
@@ -10,3 +8,4 @@ function makeAlbums(artistName, albumTitle, tracks) {
 console.log(makeAlbums("first", "the first Albums"));
 console.log(makeAlbums("Second", "the Second Albums"));
 console.log(makeAlbums("Third", "the Third Albums", 15));
+export {};

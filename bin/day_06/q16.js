@@ -1,5 +1,3 @@
-"use strict";
-Object.defineProperty(exports, "__esModule", { value: true });
 // guests 
 let guests = ["bob", "albert", "john"];
 console.log("I found a bigger dinner table");
@@ -11,3 +9,4 @@ guests.unshift("potter");
 guests.forEach((guests) => {
     console.log(`Dear ${guests} would you to like to join dinner.`);
 });
+export {};

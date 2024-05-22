@@ -1,5 +1,3 @@
-"use strict";
-Object.defineProperty(exports, "__esModule", { value: true });
 // Question no 14
 let guest_List = ["bob", "alice", "john"];
 guest_List.forEach((invite) => {
@@ -13,3 +11,4 @@ guest_List.splice(guest_List.indexOf(unableToAttend), 1, "albert");
 guest_List.forEach((invite) => {
     console.log(`Dear ${invite} would to like to join me to dinner`);
 });
+export {};

@@ -1,5 +1,3 @@
-"use strict";
-Object.defineProperty(exports, "__esModule", { value: true });
 let userNames = [
     "Eric",
     "bob",
@@ -18,3 +16,4 @@ userNames.forEach((names) => {
         console.log(`Hello ${names}, thank you for logging in again.`);
     }
 });
+export {};

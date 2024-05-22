@@ -1,5 +1,3 @@
-"use strict";
-Object.defineProperty(exports, "__esModule", { value: true });
 let age = 20;
 // q28 requirement answers.
 if (age < 2) {
@@ -20,3 +18,4 @@ else if (age >= 20 && age < 65) {
 else if (age >= 65) {
     console.log("The person is elder.");
 }
+export {};

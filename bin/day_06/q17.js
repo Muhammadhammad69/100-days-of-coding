@@ -1,5 +1,3 @@
-"use strict";
-Object.defineProperty(exports, "__esModule", { value: true });
 // q 16 answer.
 let inviteToDinner = ["bob", "albert", "john"];
 console.log("I found a bigger dinner table");
@@ -27,3 +25,4 @@ inviteToDinner.forEach((guest) => {
 });
 inviteToDinner.splice(0, inviteToDinner.length);
 console.log(inviteToDinner);
+export {};

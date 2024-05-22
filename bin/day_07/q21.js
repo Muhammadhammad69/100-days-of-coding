@@ -1,5 +1,3 @@
-"use strict";
-Object.defineProperty(exports, "__esModule", { value: true });
 let student = {
     name: "Hammad",
     cityOfBirth: "Karachi",
@@ -8,3 +6,4 @@ let student = {
     age: 19,
 };
 console.log(student.DataOfBirth);
+export {};

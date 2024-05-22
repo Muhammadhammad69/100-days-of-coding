@@ -1,5 +1,3 @@
-"use strict";
-Object.defineProperty(exports, "__esModule", { value: true });
 let places = [
     "United Kingdom",
     "London",
@@ -19,3 +17,4 @@ places.sort();
 console.log("Alphabetical order:", places);
 places.reverse();
 console.log("Reverse alphabetical order:", places);
+export {};

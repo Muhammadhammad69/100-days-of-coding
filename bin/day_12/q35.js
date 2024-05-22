@@ -1,5 +1,3 @@
-"use strict";
-Object.defineProperty(exports, "__esModule", { value: true });
 let animals = ["dog", "cat", "rabbit"];
 // requirement no1
 animals.forEach((pet) => {
@@ -11,3 +9,4 @@ animals.forEach((pet) => {
 });
 // requirement no 3.
 console.log("Any of these animals would make a great pet!");
+export {};

@@ -1,5 +1,3 @@
-"use strict";
-Object.defineProperty(exports, "__esModule", { value: true });
 // Version that passes:
 let alienColor = "green";
 if (alienColor == "green") {
@@ -10,3 +8,4 @@ alienColor = "red";
 if (alienColor == "green") {
     // No output because the condition is false
 }
+export {};

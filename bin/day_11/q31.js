@@ -1,5 +1,3 @@
-"use strict";
-Object.defineProperty(exports, "__esModule", { value: true });
 let user = [];
 if (user.length === 0) {
     console.log("We need to find some users.");
@@ -7,3 +5,4 @@ if (user.length === 0) {
 else {
     // great user.
 }
+export {};

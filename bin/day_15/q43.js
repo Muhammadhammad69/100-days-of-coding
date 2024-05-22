@@ -1,5 +1,3 @@
-"use strict";
-Object.defineProperty(exports, "__esModule", { value: true });
 let magician = ["Bob", "Allie", "Grace"];
 function makeGreat(magicianNames) {
     let greatMagician = [];
@@ -22,3 +20,4 @@ let greatMagician = makeGreat(magician); // return a new array of magician.
 showMagician(magician, greatMagician);
 //Method number two.
 showMagician(magician, makeGreat(magician)); // makeGreat() function return a new array and pass in argument.
+export {};

@@ -1,5 +1,3 @@
-"use strict";
-Object.defineProperty(exports, "__esModule", { value: true });
 let favouritePizza = [
     "Chicken Pizza",
     "Chicken Cheese Pizza",
@@ -13,3 +11,4 @@ favouritePizza.forEach((pizza) => {
 });
 // requirement  no 3
 console.log("I really love pizza");
+export {};
