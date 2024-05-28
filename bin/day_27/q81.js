@@ -7,8 +7,9 @@ let car = {
 function obj(obj) {
     for (let keys in obj) {
         console.log(`${keys}: ${obj[keys]}`);
+        //it's print the property and values of object.
     }
 }
 ;
-obj(car);
+obj(car); //call the function obj and give object as argument.
 export {};
